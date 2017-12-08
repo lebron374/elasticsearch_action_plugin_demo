@@ -1,0 +1,7 @@
+# 步骤一：定义handler类，用于处理http请求
+
+# 步骤二：定义rest类，用于注册各类http接口
+
+# 步骤三：定义 plugin类，用于es加载插件，关键需要把步骤二的rest类注册到plugin中
+
+# 步骤四：resources目录修改es-plugin.properties内容为plugin=com.demo.plugin.RestPlugin
